@@ -1,0 +1,37 @@
+.header {
+    background-color: black;
+}
+ul {
+    margin: 0;
+    padding: 14px 0 14px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+   justify-content: space-around;
+   font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    position: relative;
+
+    svg {
+        position: absolute;
+        top: 0px;
+        left: -25px;
+    }
+    svg:hover {
+        color:white
+    }
+  a { color: #969696;
+    text-decoration: none;
+  }  
+  a:hover {color:white;
+
+  }
+} 
+
