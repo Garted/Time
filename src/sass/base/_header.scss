@@ -5,12 +5,11 @@ ul {
     margin: 0;
     padding: 14px 0 14px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
 }
 li {
     display: inline-block;
-   justify-content: space-around;
    font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
@@ -24,9 +23,8 @@ li {
         top: 0px;
         left: -25px;
     }
-    svg:hover {
-        color:white
-    }
+   
+    
   a { color: #969696;
     text-decoration: none;
   }  
